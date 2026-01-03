@@ -1,18 +1,20 @@
 - name: "Bhaskar Reddy"
   DOB: "13-02-1997"
-  Address:
+  #list of objects
+  Address: 
+  ###object###
   - door: 1-155
     village: Paslapudi
     state: "Andhra pradesh"
     pin: 533261
     type: Permanent
-
+  ###object###
   - door: 1-155
     village: Paslapudi
     state: "Andhra pradesh"
     pin: 533261
     type: Permanent
-
+#list of strings
   skills:
   - skill1: "Mainframes"  
     skill2: "Devops"
