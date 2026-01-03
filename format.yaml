@@ -1,0 +1,18 @@
+- name: "Bhaskar Reddy"
+  DOB: "13-02-1997"
+  Address:
+  - door: 1-155
+    village: Paslapudi
+    state: "Andhra pradesh"
+    pin: 533261
+    type: Permanent
+
+  - door: 1-155
+    village: Paslapudi
+    state: "Andhra pradesh"
+    pin: 533261
+    type: Permanent
+
+  skills:
+  - skill1: "Mainframes"  
+    skill2: "Devops"
