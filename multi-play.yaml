@@ -3,19 +3,19 @@
   tasks:
     - name: Play-01 and Task-01
       ansible.builtin.debug:
-      msg: "Hello from Play-01 and Task-01"
+        msg: "Hello from Play-01 and Task-01"
 
     - name: Play-01 and Task-01
       ansible.builtin.debug:
-      msg: "Hello from Play-01 and Task-01"
+        msg: "Hello from Play-01 and Task-01"
 
 - name: Play-02
   hosts: frontend ##Picks url from ini file at the time of execution
   tasks:
     - name: Play-02 and Task-01
       ansible.builtin.debug:
-      msg: "Hello from Play-02 and Task-01"
+        msg: "Hello from Play-02 and Task-01"
 
     - name: Play-02 and Task-01
       ansible.builtin.debug:
-      msg: "Hello from Play-02 and Task-01"
+        msg: "Hello from Play-02 and Task-01"
