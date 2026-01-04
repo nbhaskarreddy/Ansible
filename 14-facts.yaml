@@ -6,7 +6,7 @@
     ansible.builtin.dnf:
       name: nginx
       state: latest
-    when: ansible_os_family == "Redhat" #always use ansible_ to check for facts say 13 the yaml script  
+    when: ansible_os_family == "RedHat" #always use ansible_ to check for facts say 13 the yaml script  
   - name: install nginx if redhat
     ansible.builtin.apt:
       name: nginx
