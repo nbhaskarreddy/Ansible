@@ -1,13 +1,13 @@
 - name: task level variables
   hosts: local
   connection: local #Ansible is connectiong to local host
-  vars:
+  vars: #play level variables
     course: Ansible
     Duration: 10hrs
     Trainer: Bhaskar
   tasks:
     - name: print course info
-      vars:
+      vars: #Task level variable will override play level variables
         course: DevOps
       ansible.builtin.debug:
         msg: "Course name is: {{ course }}, {{ Duration }}, {{ Trainer }}"
