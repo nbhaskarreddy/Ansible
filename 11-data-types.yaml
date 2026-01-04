@@ -6,11 +6,11 @@
     Duration: 120 #number
     is_live: true #Boolean
     #list
-    tools: #["linux", "shell", "ansible"]  
+    tools: #["linux", "shell", "ansible"]  #list: []
     - "linux"
     - shell
     - ansible
-    concepts: #dictionary/map i.e key value pairs
+    concepts: #dictionary/map i.e key value pairs map: { }
       cloud: AWS
       cm: ansible
   tasks:
