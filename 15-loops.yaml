@@ -4,7 +4,7 @@
   tasks:
   - name: print names
     ansible.builtin.debug:
-      msg: "Hello " #item is reserved
+      msg: "Hello {{ item }}" #item is reserved if written or not
     loop:
     - Bhaskar
     - sindhu
