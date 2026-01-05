@@ -4,4 +4,4 @@
   tasks:
   - name: default variable
     ansible.builtin.debug:
-      msg: "Hello, {{ Name | default(Sindhu) }}" #default is an inbuilt function in ansible
+      msg: "Hello, {{ Name | default('Sindhu') }}" #default is an inbuilt function in ansible
